@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ポートフォリオ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+<header>
+   <div class="logo">R Portfolio</div> 
+<button
+  class="menu-toggle"
+  type="button"
+  aria-label="メニューを開く"
+  aria-expanded="false"
+  aria-controls="main-nav"
+>
+&#9776;
+</button>
+<nav id="main-nav">
+  <a href="#home">Home</a>
+   <a href="#about">About</a>
+   <a href="#works">Works</a>
+   <a href="#skills">Skills</a>
+   <a href="#contact">Contact</a>
+</nav>
+</header>
+ 
+<section class="hero" id="home">
+  <div class="hero-content">
+    <p class="hero-lavel">FRONT-END DEVELOPER</p>
+   <h1>想いを、<br>カタチに。</h1>
+   <p class="hero-text">
+   Web制作を学びながら、使いやすく美しいサイトを作っています。
+   </p>
+   <button id="worksButton">View works</button>
+  </div>
+
+   <div class="hero-visual">
+    <span>CREATIVE</span>
+    <span>WEB</span>
+    <span>DESIGN</span>
+    <p class="visual-number">01 / PORTFOLIO</p>
+   </div>
+</section>
+
+<section class="about" id="about">
+  <h2>About Me</h2>
+
+  <div class="about-content">
+    <div class="about-title">
+      <span>ABOUT</span>
+      <h3>Ren</h3>
+    </div>
+
+    <div class="about-image">
+      <img src="images/about.png" alt="黒猫のイメージ画像">
+    </div>
+
+    <div class="about-text">
+  <p>Web制作を学びながら、フロントエンドを中心にスキルを磨いています。</p>
+  <ul class="profile-list">
+    <li><span>Location:</span> Akita, Japan</li>
+    <li><span>Focus:</span> Front-end Development</li>
+    <li><span>Goal:</span> Freelance Web Developer</li>
+  </ul>
+  </div>
+  </div>
+</section>
+
+<section class="works" id="works">
+  <h2>Works</h2>
+<div class="work-grid">
+  <div class="work-card">
+    <div class="work-image">
+      <img src="images/portfolio.png" alt="ポートフォリオサイトのプレビュー">
+    </div>
+
+    <h3>Portfolio Website</h3>
+    <p>自分のスキルや制作物を紹介するポートフォリオサイト</p>
+    <div class="work-tags">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+    <a href="index.html" class="work-link">View Project →</a>
+  </div>
+  <div class="work-card">
+    <div class="work-image">
+      <span>Coming Soon</span>
+    </div>  
+
+    <h3>Novel Website</h3>
+    <p>趣味で小説を書いている方にご依頼をいただき、制作中の小説紹介サイト</p>
+
+    <div class="work-tags">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="skills" id="skills">
+  <h2>Skills</h2>
+  <ul class="skill-list">
+    <li>
+    <span class="skill-number">01</span>
+    <h3>HTML</h3>
+    <p>Semantic / structure</p>
+    </li>
+
+    <li>
+      <span class="skill-number">02</span>
+    <h3>CSS</h3>
+    <p>Responsive / Animation</p>
+    </li>
+    <li>
+      <span class="skill-number">03</span>
+    <h3>JavaScript</h3>
+    <p>DOM / Interaction</p>
+    </li>
+  </ul>
+</section>
+
+<section class="contact" id="contact">
+  <p class="contact-lavel">GET IN TOUCH</p>
+  <h2>Let's work<br>together.</h2>
+  <p class="contact-text">Webサイト制作のご相談・お問い合わせはこちらから。</p>
+  <a href="mailto:cp.webcreate@gmail.com" class="contact-button">Contact Me</a>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
